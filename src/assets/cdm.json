@@ -1,0 +1,58 @@
+{
+  "_version": "3.0",
+  "payload": {
+    "visualizations": {
+      "LuigiNavConfig": {
+        "vizType": "sap.luigi.node",
+        "vizConfig": {
+          "viewGroup": {
+            "preloadSuffix": "/#/preload",
+            "requiredIFramePermissions": {
+              "allow": ["clipboard-read", "clipboard-write"]
+            }
+          },
+          "nodes": [
+            {
+              "pathSegment" : "test-side-remove-account",
+              "label" : "test-side-remove-account",
+              "urlSuffix" : "/{i18n.currentLocale}/#/test-side-remove-account",
+              "hideSideNav": true,
+              "icon": "lab",
+              "entityType": "global"
+            }
+          ]
+        }
+      }
+    },
+    "targetAppConfig": {
+      "_version": "1.13.0",
+      "sap.integration": {
+        "navMode": "inplace",
+        "urlTemplateId": "urltemplate.url",
+        "urlTemplateParams": {
+          "query": {}
+        }
+      }
+    }
+  },
+  "texts": [
+    {
+      "locale": "",
+      "textDictionary": {
+        "test-side-remove-account": "test-side-remove-account"
+      }
+    },
+    {
+      "locale": "en",
+      "textDictionary": {
+        "test-side-remove-account": "test-side-remove-account"
+      }
+    },
+    {
+      "locale": "de",
+      "textDictionary": {
+        "test-side-remove-account": "test-side-remove-account"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+kind: Component
+metadata:
+  displayName: 'test-side-remove-account'
+  description: ''
+spec:
+  type:
+    name: ui
+    categories:
+      - dxp
+      - angular
+      - luigi
+  team:
+    name: ''
+    productOwner: ''
+    technicalOwner: ''
